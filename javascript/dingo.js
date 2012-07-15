@@ -2,4 +2,12 @@
  * @author cleanboy
  */
 
-//alert("testing");
+$("document").ready(function(){
+	$(".sitePreview").click(function(){
+		$(".description").animate({
+			'top': '+=180'
+		}, 1000);
+	});
+});
+
+
