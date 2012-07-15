@@ -48,6 +48,7 @@ body {
 	height:200px;
 	margin-right:20px;
 	background-color:#FFFFFF;
+	float:left;
 }
 .sitePreview{
 	width:280px;
@@ -55,6 +56,7 @@ body {
 	margin:10px;
 	position:relative;
 	z-index:2;
+	cursor:pointer;
 }
 .description{
 	position:absolute;

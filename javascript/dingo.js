@@ -2,12 +2,24 @@
  * @author cleanboy
  */
 
+
 $("document").ready(function(){
-	$(".sitePreview").click(function(){
-		$(".description").animate({
-			'top': '+=180'
-		}, 1000);
-	});
+	
+	$('.sitePreview').toggle(
+		//site descrition drop box motion up
+		function (){
+			$(".description").animate({
+				'top': '+=190'
+			}, 600);
+			
+		},
+		// and down
+		function (){
+			$(".description").animate({
+				'top': '-=190'
+			}, 600);
+			
+		});
 });
 
 
