@@ -7,15 +7,17 @@ $("document").ready(function(){
 	
 	$('.sitePreview').toggle(
 		//site descrition drop box motion up
+		
 		function (){
-			$(".description").animate({
+			
+			$(this).next().animate({
 				'top': '+=190'
 			}, 600);
 			
 		},
 		// and down
 		function (){
-			$(".description").animate({
+			$(this).next().animate({
 				'top': '-=190'
 			}, 600);
 			
