@@ -3,12 +3,19 @@ body {
 	margin:0;
 	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
 #container{
 	background:none;
 	width:960px;
 	margin:30px auto 0 auto;
 }
 #header{
+	float:left;
 	width:960px;
 }
 #header #logo{
@@ -31,7 +38,8 @@ body {
 }
 .menuBg .topNav ul{
 	width:361px;
-	margin:0 auto;
+	margin:5px auto 0 auto;
+	padding:0;
 }
 .menuBg .topNav li{
 	float:left;
@@ -39,9 +47,17 @@ body {
 	margin:0;
 	padding:0;
 }
+.menuBg .topNav a, .description a{
+	color:#FFFFFF
+}
+.menuBg .topNav p{
+	text-align:right;
+	margin:5px 0 0 0;
+}
 #mainContent{
 	margin-top:40px;
 	float:left;
+	margin-bottom:20px;
 }
 .topText p{
 	margin:0
@@ -62,19 +78,21 @@ body {
 .sitePreview{
 	width:280px;
 	height:180px;
-	margin:10px;
-	position:relative;
+	position:absolute;
+	left:10px;
+	top:10px;
 	cursor:pointer;
 }
 .description{
 	position:absolute;
 	top:10px;
 	left:10px;
-	width:270px;
-	height:170px;
-	padding:5px;
+	width:260px;
+	height:160px;
+	padding:10px;
 	background-color:#000000;
 	color:#FFFFFF;
+	text-align:justify;
 }
 .trs{
 	z-index:4;
@@ -99,13 +117,15 @@ body {
 	margin-left:15px;
 }
 .br{
-	margin-right:15px;
-	margin-top:20px;
+	margin:20px 15px 10px 0;
 }
 .bm{
 	margin:20px 15px 0 15px;
 }
 .bl{
-	margin-left:15px;
-	margin-top:20px;
+	margin:20px 0 10px 15px;
+}
+#footer{
+	width:960px;
+	float:left;
 }
