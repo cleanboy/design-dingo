@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/bg.jpg"); 
 	margin:0;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 #container{
 	background:none;
@@ -39,33 +40,72 @@ body {
 	padding:0;
 }
 #mainContent{
-	margin-top:40px
+	margin-top:40px;
+	float:left;
+}
+.topText p{
+	margin:0
+}
+.topText {
+	margin:0;
+	text-align:center;
 }
 .siteBox{
 	position:relative;
 	float:left;
 	width:300px;
 	height:200px;
-	margin-right:20px;
 	background-color:#FFFFFF;
 	float:left;
+	margin-top:10px;
 }
 .sitePreview{
 	width:280px;
 	height:180px;
 	margin:10px;
 	position:relative;
-	z-index:2;
 	cursor:pointer;
 }
 .description{
 	position:absolute;
 	top:10px;
 	left:10px;
-	z-index:1;
 	width:270px;
 	height:170px;
 	padding:5px;
 	background-color:#000000;
 	color:#FFFFFF;
+}
+.trs{
+	z-index:4;
+}
+.trd{
+	z-index:3;
+}
+.brs{
+	z-index:2;
+}
+.brd{
+	z-index:1;
+}
+.tr{
+	margin-right:15px;
+}
+.tm{
+	margin-left:15px;
+	margin-right:15px;
+}
+.tl{
+	margin-left:15px;
+}
+.br{
+	margin-right:15px;
+	margin-top:20px;
+}
+.bm{
+	margin:20px 15px 0 15px;
+}
+.bl{
+	margin-left:15px;
+	margin-top:20px;
 }
