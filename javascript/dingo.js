@@ -7,19 +7,19 @@ $("document").ready(function(){
 	
 	$('.sitePreview img, .sitePreview').hover(
 		function(){
-		$(this).animate({
-			'top':"-=10",
-			'left':"-=10",
-			"width":"300px",
-			"height":"200px",
+		$(this).stop().animate({
+			top:"0",
+			left:"0",
+			width:"300px",
+			height:"200px",
 			}, 600);
 		},
 		function(){
-			$(this).animate({
-			"width":"280px",
-			"height":"180px",
-			'top':"+=10",
-			'left':"+=10",
+			$(this).stop().animate({
+			width:"280px",
+			height:"180px",
+			top:"10",
+			left:"10",
 			}, 600);
 		}
 	);
@@ -28,19 +28,19 @@ $("document").ready(function(){
 		function (){
 		//site descrition drop box motion up
 			$(this).next().animate({
-				"width":"280px",
-				"height":"200px",
-				'left':"0",
-				'top': '+=190'
+				width:"280px",
+				height:"200px",
+				left:"0",
+				top: "200"
 			}, 600);
 		},
 		// and down
 		function (){
 			$(this).next().animate({
-				"width":"260px",
-				"height":"160px",
-				'left':"10px",
-				'top': '-=190'
+				width:"260px",
+				height:"160px",
+				left:"10px",
+				top: "10"
 			}, 600);
 			
 		});
