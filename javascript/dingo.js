@@ -26,12 +26,12 @@ $("document").ready(function(){
 	
 	$('.siteBox').toggle(
 		function (){
-		//site descrition drop box motion up
+		//site descrition drop box motion down
 			$(this).next().stop().animate({
 				top: "200"
 			}, 600);
 		},
-		// and down
+		// and up
 		function (){
 			$(this).next().stop().animate({
 				top: "0"
@@ -39,7 +39,36 @@ $("document").ready(function(){
 			
 		});
 		
+		//attempt at being able to click the description box back up when it is down
+		if ($(".description").css("top") == 200){
+			$(".description").click(function(){
+				$(this).animate({
+					top: "10"
+				}, 600);
+			}
+				
+			)
+		}
 	
 });
 
-
+//idea but doesnt quite work...try going with the above
+//$('.siteBox').toggle(
+//		function (){
+//		//site descrition drop box motion up
+//			$(this).next().stop().animate({
+//				top: "200"
+//			}, 600, function(){
+//					$(".description").click(function(){
+//					$(".description").animate({
+//						top: "0"
+//					}, 600);
+//				})
+//			})
+//		},
+//		// and down
+//		function (){
+//			$(this).next().stop().animate({
+//				top: "0"
+//			}, 600);
+			
