@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/bg.jpg"); 
+	background-color:#185359; 
 	margin:0;
 	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
@@ -66,45 +66,52 @@ a:hover{
 	margin:0;
 	text-align:center;
 }
+.boxHolder{
+	position:relative;
+	float:left;
+	width:300px;
+	height:200px;
+	margin-top:10px;
+}
 .siteBox{
 	position:relative;
 	float:left;
 	width:300px;
 	height:200px;
-	background-color:#FFFFFF;
-	float:left;
-	margin-top:10px;
+	background-color:#D9CA9C;
+	z-index:18;
 }
-.sitePreview{
+.sitePreview img{
+	position:relative;
 	width:280px;
 	height:180px;
-	position:absolute;
-	left:10px;
-	top:10px;
+	margin:10px;
 	cursor:pointer;
+	z-index:10;
 }
 .description{
 	position:absolute;
-	top:10px;
-	left:10px;
-	width:260px;
-	height:160px;
+	top:0px;
+	left:0px;
+	width:280px;
+	height:180px;
 	padding:10px;
 	background-color:#000000;
 	color:#FFFFFF;
 	text-align:justify;
+	z-index:1;
 }
 .trs{
-	z-index:4;
+	
 }
 .trd{
-	z-index:3;
+	z-index:
 }
 .brs{
-	z-index:2;
+	
 }
 .brd{
-	z-index:1;
+	
 }
 .tr{
 	margin-right:15px;
