@@ -12,15 +12,18 @@ a:hover{
 #container{
 	background:none;
 	width:960px;
-	margin:30px auto 0 auto;
+	margin:10px auto 0 auto;
 }
 #header{
 	float:left;
 	width:960px;
 }
 #header #logo{
-	width:361px;
-	margin:0 auto 10px auto;
+	width:960px;
+	text-align:center;
+	font-size:50px;
+	color:#D9CA9C;
+	margin-bottom:10px;
 }
 .menuBg{
 	position:absolute;
@@ -62,11 +65,20 @@ a:hover{
 }
 .topText p{
 	margin:0;
-	color:#999;
+	color:#D9CA9C;
 }
 .topText {
 	margin:0;
 	text-align:center;
+	display:inline-block;
+}
+.content-top-row{
+	width:960px;
+	float:left;
+}
+.content-bottom-row{
+	width:630px;
+	margin:0 auto;
 }
 .boxHolder{
 	position:relative;
@@ -126,7 +138,7 @@ a:hover{
 	margin-left:15px;
 }
 .br{
-	margin:20px 15px 10px 0;
+	margin:20px 0 10px 0;
 }
 .bm{
 	margin:20px 15px 0 15px;
