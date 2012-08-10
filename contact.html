@@ -24,12 +24,16 @@
 	    	</div>
 	    	<div id="mainContent">
 	    		<div class="topText">
-	    			<p>contact form goes here...</p>
-	    			<?php echo "testing php works on this"; ?>
+	    			<p>Please fill out the form below to get in touch! I'll get back to you as soon as possible...</p>
 	    		</div>
-	    		<form>
-	    			<label><input /></label>
-	    		</form>
+	    		<div id="contactForm">
+		    		<form action="mail.php" method="post">
+		    			<p>Name</p><input type="text" name="name">
+		    			<p>Email</p><input type="text" name="email">
+		    			<p>Message</p><textarea name="meesage" rows="6" cols="25"></textarea><br />
+		    			<input type="submit" value="Send Message"><input type="reset" value="Clear">
+		    		</form>
+	    		</div>
 	    	</div>
 	        <div id="footer">
 	        	<div class="menuBg">
