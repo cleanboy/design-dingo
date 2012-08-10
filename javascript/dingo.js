@@ -40,7 +40,7 @@ $("document").ready(function(){
 		});
 		
 		//attempt at being able to click the description box back up when it is down
-		if ($(".description").css("top") == 200){
+		if ($(".description").css("top") == "200px"){
 			$(".description").click(function(){
 				$(this).animate({
 					top: "10"
