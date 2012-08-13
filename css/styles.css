@@ -28,17 +28,27 @@ a:hover{
 }
 #home{
 	position:absolute;
-	margin-top:40px;
-	float:left;
 	margin-bottom:20px;
-	min-height:500px;
+	min-height:512px;
 	width:960px;
-	top:0;
+	top:110px;
 	left:0;
+	background-color:#185359;
+}
+#contact{
+	position:absolute;
+	margin-bottom:20px;
+	min-height:512px;
+	width:960px;
+	top:110px;
+	left:0;
+	background-color:#185359;
+	display:none;
 }
 .menuBg{
 	position:absolute;
 	height:30px;
+	top:77px;
 	right:0;
 	left:0;
 	background-image:url("../images/menuBg.png");
@@ -155,6 +165,16 @@ a:hover{
 	margin:20px 0 10px 15px;
 }
 #footer{
+	position:absolute;
+	top:645px;
+	left:0;
+	right:0;
+	height:30px;
+	color:#ffffff;
+	text-align:right;
+	background-image:url("../images/menuBg.png");
+}
+#footerTxt{
 	width:960px;
-	float:left;
+	margin:-10px auto 0 auto;
 }

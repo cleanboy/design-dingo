@@ -4,6 +4,11 @@
 
 
 $("document").ready(function(){
+	//site transition effect
+	$('.contactLoader').click(function(){
+		$('.contact').fadeIn();
+	});
+	
 	//Zoom image effect
 	$('.sitePreview img').hover(
 		function(){

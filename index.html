@@ -9,18 +9,18 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+    	<div class="menuBg">
+    		<div class="topNav">
+    			<ul>
+    				<li>Home</li>
+    				<li><a href="about.html">About Me</a></li>
+    				<li><a class="contactLoader" href="#">Contact</a></li>
+    			</ul>
+    		</div>
+    	</div>
     	<div id="container">
 	    	<div id="header">
-	    		<div id="logo">mind = blown</div>
-	    		<div class="menuBg">
-	    			<div class="topNav">
-	    				<ul>
-	    					<li>Home</li>
-	    					<li><a href="about.html">About Me</a></li>
-	    					<li><a href="contact.html">Contact</a></li>
-	    				</ul>
-	    			</div>
-	    		</div>
+	    		<div id="logo">mind = blown</div>	    		
 	    	</div>
 	    	<div id="home">
 	    		<div class="topText">
@@ -94,13 +94,24 @@
 	    			<p>I'd just like to point out that I'm not a designer (although I know a few if need be) and this site is more just to showcase my previous works and show a little work with jQuery...just for fun.</p>
 	    		</div>
 	    	</div>
-	        <div id="footer">
-	        	<div class="menuBg">
-	        		<div class="topNav">
-	        			<p>Copyright © mindequalsblown.com 2012 All rights Reserved</p>
-	        		</div>
-	        	</div>
-	        </div>
+	    	<div id="contact">
+	    		<div class="topText">
+	    			<p>Please fill out the form below to get in touch! I'll get back to you as soon as possible...</p>
+	    		</div>
+	    		<div id="contactForm">
+		    		<form action="mail.php" method="post">
+		    			<p>Name</p><input type="text" name="name">
+		    			<p>Email</p><input type="text" name="email">
+		    			<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+		    			<input type="submit" value="Send Message"><input type="reset" value="Clear">
+		    		</form>
+	    		</div>
+	    	</div>
        	</div>
+       	<div id="footer">	        	       		
+	    	<div id="footerTxt">
+	        	<p>Copyright © mindequalsblown.com 2012 All rights Reserved</p>
+	        </div>	        		
+	    </div>
     </body>
 </html>
