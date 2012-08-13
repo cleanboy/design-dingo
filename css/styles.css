@@ -10,6 +10,7 @@ a:hover{
 	text-decoration:underline;
 }
 #container{
+	position:relative;
 	background:none;
 	width:960px;
 	margin:10px auto 0 auto;
@@ -24,6 +25,16 @@ a:hover{
 	font-size:50px;
 	color:#D9CA9C;
 	margin-bottom:10px;
+}
+#home{
+	position:absolute;
+	margin-top:40px;
+	float:left;
+	margin-bottom:20px;
+	min-height:500px;
+	width:960px;
+	top:0;
+	left:0;
 }
 .menuBg{
 	position:absolute;
@@ -57,13 +68,6 @@ a:hover{
 .menuBg .topNav p{
 	text-align:right;
 	margin:5px 0 0 0;
-}
-#mainContent{
-	margin-top:40px;
-	float:left;
-	margin-bottom:20px;
-	min-height:500px;
-	width:960px;
 }
 .topText p{
 	margin:0;
