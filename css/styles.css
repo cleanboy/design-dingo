@@ -118,7 +118,6 @@ a:hover{
 	text-align:justify;
 	z-index:1;
 }
-
 .trs{
 	z-index:7;
 }
@@ -149,6 +148,15 @@ a:hover{
 }
 .bl{
 	margin:20px 0 10px 15px;
+}
+#selfInfo{
+	margin-top:100px;
+	text-align:justify;
+	color:#D9CA9C;
+}
+.me-photo{
+	float:left;
+	margin-right:20px;
 }
 #footer{
 	width:960px;
