@@ -6,7 +6,7 @@
 $("document").ready(function(){
 	//site transition effect
 	$('.contactLoader').click(function(){
-		$('.contact').fadeIn();
+		$('#home').fadeOut("slow");
 	});
 	
 	//Zoom image effect
