@@ -45,15 +45,21 @@ $(document).ready(function(){
 		});
 		
 		//attempt at being able to click the description box back up when it is down
-		if ($(".description").css("top") == "200px"){
-			$(".description").click(function(){
+		$(".description").click(function()
+		{			
+			if ($(".description").css("top") == "200px")
+			{
 				$(this).animate({
-					top: "10"
+					top: "10px"
 				}, 600);
 			}
-				
-			)
-		}
+			else
+			{
+				$(this).animate({
+					top: "200px"
+				}, 600);
+			}
+		})
 		
 		$('.topNav li').click(function(e)
 		{
