@@ -5,9 +5,16 @@
 
 $("document").ready(function(){
 	//site transition effect
-	$('.contactLoader').click(function(){
-		$('#home').fadeOut("slow");
-	});
+	$('.topNav li').click(
+		menuItem = $(this).attr('class');
+		$('.active').fadeOut("slow");
+		
+	);
+	
+	
+		//$('.contactLoader').click(function(){
+		//	$('#home').fadeOut("slow");
+		//});
 	
 	//Zoom image effect
 	$('.sitePreview img').hover(
