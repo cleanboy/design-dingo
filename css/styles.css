@@ -9,6 +9,14 @@ a{
 a:hover{
 	text-decoration:underline;
 }
+.switcher
+{
+	display: none;
+}
+.switcher.active
+{
+	display: block;
+}
 #container{
 	position:relative;
 	background:none;
@@ -72,6 +80,7 @@ a:hover{
 	margin:0;
 	padding:0;
 	margin-left:92px;
+	cursor: pointer;
 }
 .menuBg .topNav a, .description a{
 	color:#FFFFFF

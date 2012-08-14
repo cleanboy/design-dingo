@@ -3,7 +3,7 @@
  */
 
 
-$("document").ready(function(){
+$(document).ready(function(){
 	//site transition effect
 	$('.contactLoader').click(function(){
 		$('#home').fadeOut("slow");
@@ -54,6 +54,30 @@ $("document").ready(function(){
 				
 			)
 		}
+		
+		$('.topNav li').click(function(e)
+		{
+			
+			var c = $(this).text();
+			c = c.toLowerCase();
+			c = c.replace(' ', '-');
+			
+			var id = $('#'+c);
+			
+			if(id.hasClass('active'))
+				return;
+			
+			$('.switcher.active').fadeOut(600, function()
+			{
+				$(this).removeClass('active');
+				
+				$('#'+c).fadeIn(600, function()
+				{
+					$(this).addClass('active');
+				});
+			});
+		});
+			
 	
 });
 
