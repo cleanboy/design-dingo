@@ -44,6 +44,16 @@ a:hover{
 	background-color:#185359;
 	display:block;
 }
+#about{
+	position:absolute;
+	margin-bottom:20px;
+	min-height:512px;
+	width:960px;
+	top:110px;
+	left:0;
+	background-color:#185359;
+	display:none;
+}
 #contact{
 	position:absolute;
 	margin-bottom:20px;
