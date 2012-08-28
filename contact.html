@@ -27,12 +27,15 @@
 	    			<p>Please fill out the form below to get in touch! I'll get back to you as soon as possible...</p>
 	    		</div>
 	    		<div id="contactForm">
-		    		<form action="mail.php" method="post">
-		    			<p>Name</p><input type="text" name="name">
-		    			<p>Email</p><input type="text" name="email">
-		    			<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-		    			<input type="submit" value="Send Message"><input type="reset" value="Clear">
+		    		<form action="mail.php" method="post" name="contactForm" onsubmit="return validateForm()">
+		    			<label><span class="formTxt">Name:</span></label><input class="longer" type="text" name="name"><br />
+		    			<label><span class="formTxt">Email:</span></label><input class="longer" type="text" name="email"><br />
+		    			<span class="formTxt">Message:</span><br /><textarea name="message" rows="10" cols="50"></textarea><br />
+		    			<input class="buttons" type="submit" value="Send Message"><input class="buttons" type="reset" value="Reset Form">
 		    		</form>
+	    		</div>
+	    		<div class="topText">
+	    			<p style="margin-top:30px">Or if you would just like to e-mail me the address is <a href="mailto:contact@mindequalsblown.co.uk">contact@mindequalsblown.co.uk</a>. Thanks!</p>
 	    		</div>
 	    	</div>
 	        <div id="footer">

@@ -5,6 +5,7 @@ body {
 }
 a{
 	text-decoration:none;
+	color:#D9CA9C;
 }
 a:hover{
 	text-decoration:underline;
