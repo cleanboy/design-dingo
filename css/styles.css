@@ -154,6 +154,22 @@ a:hover{
 	float:left;
 	margin-right:20px;
 }
+/* CONTACT */
+#contactForm{
+	margin-top:30px;
+}
+#contactForm input{
+	display:block;
+}
+#contactForm .buttons{
+	width:150px;
+}
+.longer{
+	width:300px;
+}
+.formTxt{
+	color:#D9CA9C;
+}
 #footer{
 	width:960px;
 	float:left;
